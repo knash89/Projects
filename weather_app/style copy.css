@@ -1,0 +1,111 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    border: 5px solid rgb(94, 139, 126);
+    border-radius: 20px;
+    padding: 50px;
+    display: block;
+    margin: 50px auto;
+    background: rgb(223, 238, 234);
+    min-width: 535px;
+    max-width: 635px;
+  }
+  
+  #info,
+  #forecast {
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  /* .btn, */
+  .form-control,
+  #current {
+    font-family: "Roboto", sans-serif;
+    transition: all 100ms ease-in-out;
+    color: rgb(94, 139, 126);
+    border: 1px solid rgb(94, 139, 126);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  #current:hover,.btn:hover {
+    background-color: rgb(47, 93, 98);
+    color: white;
+  }
+  
+  #local {
+    color: rgb(47, 93, 98);
+    margin: 3px;
+  }
+  
+  #place {
+    color: rgb(47, 93, 98);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 3px;
+  }
+  
+  .today {
+    color: rgb(47, 93, 98);
+    font-size: 30px;
+    padding: 20px 20px;
+  }
+  #description:first-letter {
+    text-transform: capitalize;
+  }
+  
+  #description {
+    font-size: 20px;
+  }
+
+  .conditions {
+    color: rgb(47, 93, 98);
+    padding: 25px 0px;
+    line-height: 15px;
+  }
+  
+  .units {
+    font-size: 15px;
+    text-decoration: none;
+    /* color: rgb(47, 93, 98); */
+    display: inline-block;
+    text-align: center;
+  }
+  .units:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    /* color: rgb(47, 93, 98); */
+  }
+
+  .today .active{
+    color: rgb(47, 93, 98);
+    cursor: default;
+  }
+  .today .active:hover {
+    cursor: default;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  #or {
+    font-size: 20px;
+  }
+  
+  .days,
+  .hiLowTemps {
+    color: rgb(94, 139, 126);
+  }
+
+ #footnote {
+    display: block;
+    margin: 0 auto;
+    margin-top: -40px;
+    min-width: 535px;
+    max-width: 635px;
+    
+}
